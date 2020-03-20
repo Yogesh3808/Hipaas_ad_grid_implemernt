@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7591097.chunk.css",
+    "main.js": "/static/js/main.5ba27d9f.chunk.js",
+    "main.js.map": "/static/js/main.5ba27d9f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e89362ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e89362ac.js.map",
+    "static/css/2.ff9ea1f9.chunk.css": "/static/css/2.ff9ea1f9.chunk.css",
+    "static/js/2.e34d0c9d.chunk.js": "/static/js/2.e34d0c9d.chunk.js",
+    "static/js/2.e34d0c9d.chunk.js.map": "/static/js/2.e34d0c9d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a09accd9cc2b661aaceec2d08a010ad7.js": "/precache-manifest.a09accd9cc2b661aaceec2d08a010ad7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ff9ea1f9.chunk.css.map": "/static/css/2.ff9ea1f9.chunk.css.map",
+    "static/css/main.e7591097.chunk.css.map": "/static/css/main.e7591097.chunk.css.map",
+    "static/media/834Dashboard_01.PNG": "/static/media/834Dashboard_01.c96a00a7.PNG",
+    "static/media/HiPaaS_logo.png": "/static/media/HiPaaS_logo.6708ada3.png",
+    "static/media/chart.png": "/static/media/chart.f740bf70.png",
+    "static/media/pencil.png": "/static/media/pencil.120dd860.png",
+    "static/media/trash.png": "/static/media/trash.5331276d.png",
+    "static/media/user.png": "/static/media/user.616fcc9d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89362ac.js",
+    "static/css/2.ff9ea1f9.chunk.css",
+    "static/js/2.e34d0c9d.chunk.js",
+    "static/css/main.e7591097.chunk.css",
+    "static/js/main.5ba27d9f.chunk.js"
+  ]
+}

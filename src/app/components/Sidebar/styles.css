@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "../../containers/color.css"; 
+
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    background: var(--white-background);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: var(--filterColor); 
+    border-radius: 10px;
+  }
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: var(--black-color);
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: var(--white-color);
+}
+
+#sidebar ul p {
+    color: var(--black-color);
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 12px;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: var(--main-bg-color);
+    background: var(--white-color);
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: var(--black-color);
+    background: var(--white-color);
+}
+ul ul a {
+    font-size: 12px !important;
+    padding-left: 20px !important;
+    background: var(--white-color);
+}
+
+#sidebar {
+    left: 0;
+    padding-bottom: 70px;
+    height: 90%;
+    background: var(--white-color);
+    color: var(--black-color);
+    overflow: auto;
+    transition: all 0.3s;
+    position: fixed;
+}
+
+.padding{
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+.underline{
+    height : 2px;
+    background-color: var(--main-bg-color);
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+}
+.p {
+    margin: 0px;
+}
+#tabs{
+    padding-top: 12px;
+    background-color: var(--white-color);
+}
+.nopadding{
+    padding: 0px;
+}
+.smaller-font{
+    font-size: 14px;
+    text-align: center;
+    color: var(--black-color)
+}
+.background{
+    background-color: var(--background-color);
+}
+.white-background{
+    background-color: var(--white-color);
+}
+td{
+    font-size: 12px;
+}
+.sidebar-width{
+    width : 204px;
+}
+.menu_option{
+    word-break: break-all;
+}
+.headerText{
+    color: var(--main-bg-color); 
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.button-table{
+    padding-top: 7px !important;
+    padding-bottom: 0px !important;
+}

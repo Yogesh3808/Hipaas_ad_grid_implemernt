@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hviews
+  labels:
+   app: hviewj
+spec:
+  ports:
+  - name: http
+    port: 80
+    nodePort: 30119
+  selector:
+    app: hviewj
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hviewc
+  labels:
+    app: hviewj
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hviewj
+  template:
+    metadata:
+      labels:
+        app: hviewj
+    spec:
+      containers:
+      - name: hviewjenkins
+        image: devcoolinc/hipaas-frontend:1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred

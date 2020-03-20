@@ -1,0 +1,74 @@
+.pull-right{
+    text-align: right;
+    width: 940px;
+    margin-top: 30px;
+}
+.list-header1{
+    margin-left: 15px;
+    font-size: 11px;
+}
+.checkbox-margin {
+    margin-top:10px;
+}
+.center{
+    text-align: center;
+}
+.table-head{
+    background-color: #139DC9;
+}
+.table-head-text{
+    color: white;
+    font-size: 12px;
+}
+.summary-list{
+    line-height: 2.5em;
+}
+.summary-values{
+    font-size: 18px;
+}
+.dark_red{
+    color: #AD320D
+}
+.light_blue1{
+    background-color: #139DC9;
+    color : white;
+    margin-top: 0px;
+    margin-left: 40px;
+        padding: .25rem .4rem;
+        font-size: .775rem;
+        line-height: 1.5;
+        border-radius: .2rem;
+}
+.red{
+    color: #FF3B41
+}
+.green{
+    color: #2AC327
+}
+.orange{
+    color: #FA731A
+}
+td a {
+    display:block;
+    width:100%;
+}
+.collapsible {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+.collapsible[aria-expanded="true"], .collapsible:hover {
+    background-color: #139DC9;
+}
+.content {
+    border-color: #139DC9;
+    border-style: solid;
+    border-width: thin;
+}

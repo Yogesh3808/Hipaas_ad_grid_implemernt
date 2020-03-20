@@ -1,0 +1,29 @@
+.div-data1{
+    text-align:left; display:inline-block;height:75px;font-size:12px;margin-left: -30px; color:#FFFFFF;width: 12.49995%;
+}
+
+.disct{
+    color: red;
+      font-size: 30px;
+      margin-top: -20px;
+      margin-left: 40px;
+}
+.enrollment-list {
+    background-color: white;
+    margin-top: 16px;
+    font-size: 11px;
+}
+.table td, .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.col-pixel-width-100 { flex: 0 0 200px; }
+
+.error-list {
+    background-color: white;
+    font-size: 12px;
+}
+.table-header-text {
+    color: white;
+    font-size: 12px;
+}

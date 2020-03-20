@@ -1,0 +1,117 @@
+@import "../color.css";
+
+.pull-right{
+    text-align: right;
+    width: 940px;
+    margin-top: 30px;
+}
+.list-header1{
+    margin-left: 15px;
+    font-size: 11px;
+}
+.checkbox-margin {
+    margin-top:10px;
+}
+.center{
+    text-align: center;
+}
+.table-head{
+    background-color: var(--main-bg-color);
+}
+.table-head-text{
+    color: var(--white-color);
+    font-size: 12px;
+}
+.summary-list{
+    line-height: 2.5em;
+}
+.summary-values{
+    font-size: 18px;
+}
+.dark_red{
+    color: var(--dark-red)
+}
+.light_blue{
+    background-color: var(--main-bg-color);
+    color : var(--white-color);
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: .25rem .4rem;
+    font-size: .775rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.red{
+    color: var(--red)
+}
+.green{
+    color: var(--green)
+}
+.orange{
+    color: var(--orange)
+}
+td a {
+    display:block;
+    width:100%;
+}
+.collapsible {
+    background-color: var(--lightgray);
+    color: var(--black-color);
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+.collapsible[aria-expanded="true"], .collapsible:hover {
+    background-color: var(--main-bg-color);
+    color: var(--white-color);
+}
+.content {
+    border-color: var(--main-bg-color);
+    border-style: solid;
+    border-width: thin;
+}
+
+.Editbutton {
+    margin-top: -18px;
+    background-color: var(--light-green-color); /* Green */
+    border: none;
+    color: var(--white-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .form-control {
+    display: block;
+    width: 90%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+  
+
+  .container
+  {
+      margin-left: 0px;
+  }
+  .button2 {background-color: var(--main-bg-color);} /* Blue */
+  
+
+

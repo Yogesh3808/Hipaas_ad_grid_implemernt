@@ -1,0 +1,85 @@
+@import "../color.css";
+
+padding-top.Title
+{
+    font-weight: bold;
+    font-size: 14x;
+    margin-left: 15px;
+    color:var(--white-color);
+   
+}
+
+.headernm
+{
+    font-weight: bold;
+    font-size: 10x;
+    margin-left: 37px;
+   
+}
+.form-control
+{
+    font-size: 12px;
+}
+.btn-demo {
+	border-radius: 150;
+	font-size: 12px;
+    background-color: var(--button-login-color);
+    color: var(--white-color);
+    width: 95%;
+    text-align: left;
+}
+.btn-demo:hover {
+    color: var(--white-color);
+}
+.widthText{
+    width: 100%;
+    float: inherit !important; 
+}
+.small{
+    font-size: 12px;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Hipaas_logo {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -100px;
+    }
+.para{
+    position: sticky;
+    left: 5%;
+    top: 85%; 
+    text-align: center;
+    color: var(--white-color);
+}
+.contact{
+    position: sticky;
+    left: 35%;
+    top: 95%; 
+    text-align: center;
+    color: var(--white-color) !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.header_login{
+    padding-left: 0px;
+}
+.vartical-center{
+    position: absolute;
+    left: 73%;
+    top: 25%; 
+}
+.gradient-color{
+    background: var(--gradient-color);   
+}
+/* linear-gradient(29deg, rgba(105,237,241,1) 0%, rgba(89,89,227,1) 0%, rgba(34,201,252,1) 100%) */

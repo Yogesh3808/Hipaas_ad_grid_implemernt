@@ -1,0 +1,85 @@
+.pull-right{
+    text-align: right;
+    width: 940px;
+    margin-top: 30px;
+}
+.mySearchbox {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    /* border-bottom: 1px solid #6AA2B8; */
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 30px;
+    Font-Family: Helvetica Font;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: Left;
+    Letter-Spacing: -0.41px;
+    color: #6AA2B8;
+}
+.list-header{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.checkbox-margin {
+    margin-top:10px;
+}
+.center{
+    text-align: center;
+}
+.table-head{
+    background-color: #139DC9;
+}
+.table-head-text{
+    color: white;
+    font-size: 12px;
+}
+.summary-list{
+    line-height: 2.5em;
+}
+.summary-values{
+    font-size: 18px;
+}
+.dark_red{
+    color: #AD320D
+}
+.light_blue{
+    background-color: #139DC9;
+    color : white;
+}
+.red{
+    color: #FF3B41
+}
+.green{
+    color: #2AC327
+}
+.orange{
+    color: #FA731A
+}
+td a {
+    display:block;
+    width:100%;
+}
+.collapsible {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+.collapsible[aria-expanded="true"], .collapsible:hover {
+    background-color: #139DC9;
+  }
+.content {
+    border-color: #139DC9;
+    border-style: solid;
+    border-width: thin;
+   }

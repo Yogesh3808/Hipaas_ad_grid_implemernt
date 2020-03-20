@@ -1,0 +1,19 @@
+tbody + thead{
+    display: none;
+    
+  }
+  thead
+  {
+      background-color: #139DC9;
+      color: #fff;
+      font-size: 12px;
+  }
+  tbody{
+    font-size: 12px;
+  }
+  .dataTables_filter{
+      display: none;
+  }
+  .dataTables_length{
+      display: none;
+  }

@@ -1,0 +1,85 @@
+@import "../color.css";
+
+.modal.right .modal-dialog {
+    position: right;
+    margin: 100;
+    width: 480px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+}
+
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 54px;
+}
+
+.modal.left .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -450px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom-color: var(--white-gray-color);
+    background-color: var(--main-bg-color);
+}
+
+/* ----- v CAN BE DELETED v ----- */
+body {
+
+font-size: 12px;
+}
+.form-control{
+    font-size: 12px !important;
+}
+.btn {
+    font-size: 12px !important;
+}
+.btn-demo {
+	margin: 15px;
+	padding: 10px 15px;
+	border-radius: 150;
+	font-size: 12px;
+    background-color: var(--main-bg-color);
+ 
+}
+.table-text{
+    background-color: var(--main-bg-color);
+    color: var(--white-color)
+}
+.btn-demo:hover {
+    color: var(--white-color);
+  }
+.btn-design{
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 150;
+    font-size: 12px;
+    background-color: var(--main-bg-color);
+    color: var(--white-color);
+}
+.widthHandling{
+    padding-right: 50px !important;
+}

@@ -1,0 +1,25 @@
+
+ 
+  .div_color{
+    text-align:left; display:inline-block;height:65px;font-size:12px; margin-left:10px; color:#FFFFFF;
+}
+.disc{
+    color: red;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.time{
+    margin-top: -20px;
+}
+.rightDisplay{
+    text-align:right
+}
+
+.claims-text{
+    font-size: 9px !important;
+}
+
+#paddingset td, #paddingset th {
+    padding: 2.2px !important
+}

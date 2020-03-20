@@ -1,0 +1,220 @@
+
+.input-style{
+    padding:13px;
+    width: 100%  ; 
+    border:none;
+}
+.claim-list{
+    background-color: white;
+    margin-top: 16px;
+    font-size: 10px;
+}
+.list-item-style{
+    text-align: center;
+}
+.table-head{
+    background-color: #139DC9;
+}
+.table-head-text{
+    color: white;
+    font-size: 12px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.summary-list{
+    line-height: 2.5em;
+}
+.summary-values{
+    font-size: 18px;
+}
+.nopadding{
+    padding : 0px;
+}
+.header{
+    color: darkslategrey;
+    padding-bottom: 4px;
+    margin-top: 12px;
+}
+.summary-style{
+    padding : 12px
+}
+.height{
+    height : 50px;
+}
+.col-style{
+    background-color: #ffffff; 
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 12px;
+    text-align: center;
+    padding: 12px;
+}
+.border-left{
+    border-left: 1px solid #dfdfdf;
+}
+.col-small-style{
+    background-color: #ffffff; 
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+    word-break: break-all;
+}
+.left-align{
+    background-color: #ffffff; 
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 12px;
+    padding: 12px;
+}
+.col-header{
+    background-color: #139DC9; 
+    border-right: 1px solid #ffffff;
+    padding: 16px;
+    font-size: 12px;
+    color: white;
+}
+.file-table{
+    background-color: #ffffff; 
+}
+.no_margin{
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+.padding-left{
+    padding-left: 16px;
+}
+.plus-sign{
+    font-size: 30px;
+}
+.claims-text{
+    font-size: 10px;
+}
+.vertical_line_black{
+    border-left: 1px solid ;
+    padding: 0px;
+    margin: 0px
+}
+.vertical_line{
+  border-left: 1px solid white;
+  padding: 0px;
+  margin: 0px;
+}
+.small-font{
+    font-size: 12px !important
+}
+.claim-line-data{
+    padding: 12px;
+}
+.pull-right-icons {
+    float: right;
+    /* margin-right: 10px; */
+    margin-top: 10px;
+}
+#pagination ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#react-paginate li {
+    display: inline-block;
+}
+.top-padding-table{
+    margin-top : 24px;
+}
+.body-style{
+    background-color: white;
+    font-size: 0.7em;
+}
+.header-style{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    padding-left: 8px;
+    font-size: 14px;
+    padding-bottom: -2px;
+}
+.claim-Details{
+    background-color: white;
+    margin-top: 16px;
+    font-size: 12px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #139DC9;
+    border-color: #139DC9;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 0.90;
+    color: #139DC9;
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+}
+.word-wrap{
+    word-wrap: break-word;
+}
+.clickable{
+    cursor: pointer
+}
+.style-left{
+    padding-left: 24px !important;
+}
+.claims-status-style{
+    
+}
+.copyright{
+    color: darkslategrey;
+    padding-left: 12px;
+    position: fixed;                  
+    bottom:0; 
+    z-index: 1;
+    background-color: var(--white-color);
+}
+.border-bottom{
+    border-bottom: 1.5px solid #139DC9 !important;
+}
+.search-input-style{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px;
+    margin-top: 8px;
+    border: none;
+    color: #139DC9;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+}
+.padding-view{    
+    padding-left: 0px;
+    margin-bottom: 12px
+}
+.small-padding{
+    padding : 3px !important;
+}
+.margin-top{
+    padding-top: 16px;
+}
+.top-bar-margin{
+    margin-left: -12px !important;
+}
+.sidebar-margin{
+    margin-left: 230px;
+}
+.breakword{
+    word-break: break-all;
+}
+.button-resubmit{
+    height: 24px;
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+}

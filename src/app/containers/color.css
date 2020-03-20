@@ -1,0 +1,35 @@
+:root {
+    --main-bg-color: #139DC9; 
+    --white-color: white; 
+    --white-background: #fafafa;
+    --black-color: #000000;
+    --cyan-color: #83D3B4;
+    --hex-color: #9DCA15;
+    --pacific-blue-color:#03d9c6;
+    --green-color: #65C204;
+    --grey-color: gray;
+    --lightgray: lightgray;
+    --grayBlack: #424242;
+    --light-blue: #6AA2B8;
+    --brown-color: brown;
+    --crimson: crimson;
+    --navTabs: #dddddd;
+    --filterColor: #d8d8d8;
+    --dark-red: #AD320D;
+    --blue-color: #1DA3CD;
+    --red: #FF3B41;
+    --green: #2AC327;
+    --orange: #FA731A;
+    --dark_gray: #404040;
+    --white_back: #E8E8E8;
+    --background-color: #fcfcfc;
+    --white-gray-color: #EEEEEE;
+    --gray-dark-color: #6C6969;
+    --login-color: #05274D;
+    --gradient-color: linear-gradient(29deg, rgba(105,237,241,1) 0%, rgba(89,89,227,1) 0%, rgba(34,201,252,1) 100%);
+    --button-login-color: #4A80EC;
+    --navy-blue-color: #33aff6;
+    --light-green-color: #4CAF50;
+    --light-grey: #ffffff;
+
+  }
